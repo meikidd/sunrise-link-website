@@ -19,7 +19,7 @@ function App() {
   return (
     <div>
       {/* Header */}
-      <div className="h-16 md:h-24 py-2 px-4 md:px-8 flex items-center justify-between">
+      <div className="h-16 py-2 px-4 md:px-8 flex items-center justify-between">
         <img className="h-full" src={logo} alt="Sunrise Link logo" />
         <a 
           href="https://wa.me/6582935678" 
