@@ -1,0 +1,5 @@
+# Files to ignore when deploying to Vercel
+SEO-GUIDE.md
+*.log
+.DS_Store
+
