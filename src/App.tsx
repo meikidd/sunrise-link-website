@@ -21,16 +21,28 @@ function App() {
       {/* Header */}
       <div className="h-16 md:h-24 py-2 px-4 md:px-8 flex items-center justify-between">
         <img className="h-full" src={logo} alt="Sunrise Link logo" />
-        <div className='text-sm md:text-xl font-bold md:mr-8 bg-[#E0910F] text-white rounded-full py-1.5 px-3 md:py-2 md:px-4 flex items-center gap-x-1 md:gap-x-2 cursor-pointer'>
+        <a 
+          href="https://wa.me/6582935678" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className='text-sm md:text-xl font-bold md:mr-8 bg-[#E0910F] text-white rounded-full py-1.5 px-3 md:py-2 md:px-4 flex items-center gap-x-1 md:gap-x-2 cursor-pointer hover:bg-[#D08010] transition-colors'
+        >
           <WhatsappIcon />
           <span>+65 82935678</span>
-        </div>
+        </a>
       </div>
       {/* Banner */}
       <div className='relative h-[200px] sm:h-[350px] md:h-[400px] lg:h-[500px] overflow-hidden'>
         <div className='absolute top-[30px] sm:top-[50px] w-full z-10 text-center font-bold px-4'>
           <div className='text-white text-xl sm:text-2xl md:text-4xl leading-tight hidden sm:block'>A sunrise of care, a link of trust</div>
-          <div className='bg-white text-base sm:text-xl md:text-2xl text-[#E0910F] px-3 py-1.5 sm:px-4 sm:py-2 rounded-full mt-0 sm:mt-4 cursor-pointer items-center gap-x-2 inline-flex'><WhatsappIcon /> Enquire Now</div>
+          <a 
+            href="https://wa.me/6582935678" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className='bg-white text-base sm:text-xl md:text-2xl text-[#E0910F] px-3 py-1.5 sm:px-4 sm:py-2 rounded-full mt-0 sm:mt-4 cursor-pointer items-center gap-x-2 inline-flex hover:bg-gray-100 transition-colors'
+          >
+            <WhatsappIcon /> Enquire Now
+          </a>
         </div>
         <img src={BgImage} alt="Sunrise Link background image" className='absolute bottom-0 w-full object-cover z-0' />
         <img src={HeroImage} alt="Sunrise Link hero image" className='w-[250px] sm:w-[400px] md:w-[450px] lg:w-[600px] absolute bottom-0 left-1/2 -translate-x-1/2 z-10' />
