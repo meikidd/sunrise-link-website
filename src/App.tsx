@@ -37,7 +37,7 @@ function App() {
       </div>
 
       {/* Why Choose Us */}
-      <div className='mt-8 sm:mt-12 md:mt-16 px-4 max-w-[1024px] mx-auto'>
+      <div id="why-choose-us" className='mt-8 sm:mt-12 md:mt-16 px-4 max-w-[1024px] mx-auto scroll-mt-20'>
         <div className='relative text-xl sm:text-2xl font-bold text-center after:content-[""] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-20 after:rounded after:top-8 sm:after:top-10 after:block after:h-1 after:bg-linear-to-r after:from-[#E0910F] after:to-[#EFC78C]'>Why Choose Us?</div>
         <div className='flex flex-col sm:flex-row mt-12 sm:mt-16 gap-6 sm:gap-4 mx-10 sm:mx-0'>
           <div className='flex-1'>
@@ -64,7 +64,7 @@ function App() {
       </div>
 
       {/* Our Services */}
-      <div className='mt-8 sm:mt-12 md:mt-16 bg-gray-50 py-8 sm:py-10 px-4'>
+      <div id="our-services" className='mt-8 sm:mt-12 md:mt-16 bg-gray-50 py-8 sm:py-10 px-4 scroll-mt-20'>
         <div className='relative text-xl sm:text-2xl font-bold text-center after:content-[""] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-20 after:rounded after:top-8 sm:after:top-10 after:block after:h-1 after:bg-linear-to-r after:from-[#E0910F] after:to-[#EFC78C]'>Our Services</div>
         <div className='flex flex-col sm:flex-row gap-4 sm:gap-4 mt-12 sm:mt-16 max-w-[1024px] mx-auto'>
           <div className='flex-1 bg-white rounded-lg pt-6 sm:pt-8 p-5 sm:p-6'>
@@ -86,7 +86,7 @@ function App() {
       </div>
 
       {/* How It Works */}
-      <div className='mt-8 sm:mt-12 md:mt-16 px-4 max-w-[1024px] mx-auto'>
+      <div id="how-it-works" className='mt-8 sm:mt-12 md:mt-16 px-4 max-w-[1024px] mx-auto scroll-mt-20'>
         <div className='relative text-xl sm:text-2xl font-bold text-center after:content-[""] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-20 after:rounded after:top-8 sm:after:top-10 after:block after:h-1 after:bg-linear-to-r after:from-[#E0910F] after:to-[#EFC78C]'>How It Works</div>
         <div className='flex flex-col sm:flex-row gap-6 sm:gap-8 mt-12 sm:mt-16'>
           <div className='flex-1'>
@@ -115,7 +115,7 @@ function App() {
       {/* Footer */}
       <div className='mt-8 sm:mt-12 md:mt-16 py-6 sm:py-8 bg-[#3E3E3E] px-4'>
         <div className='flex flex-col sm:flex-row sm:justify-between text-white gap-6 sm:gap-x-6 max-w-[1024px] mx-auto'>
-          <div className='flex-none sm:w-[240px] sm:mr-20'>
+          <div className='flex-none sm:w-[240px] md:mr-20'>
             <div className="w-full sm:p-1 max-w-[200px] sm:max-w-full">
               <img src={logo} className='w-full' alt="Sunrise Link logo" />
             </div>
@@ -125,18 +125,18 @@ function App() {
           </div>
           <div className='flex-auto'>
             <div className='text-base sm:text-lg font-bold mb-3 sm:mb-4'>Quick Links</div>
-            <div className='flex items-center gap-x-1 opacity-70 mb-2 text-sm sm:text-base'>
+            <a href='#why-choose-us' className='text-white flex items-center gap-x-1 opacity-70 hover:opacity-100 mb-2 text-sm sm:text-base transition-opacity cursor-pointer'>
               <div className='text-[8px]'><RightArrowIcon /></div>
               <div>Why Choose Us?</div>
-            </div>
-            <div className='flex items-center gap-x-1 opacity-70 mb-2 text-sm sm:text-base'>
+            </a>
+            <a href='#our-services' className='text-white flex items-center gap-x-1 opacity-70 hover:opacity-100 mb-2 text-sm sm:text-base transition-opacity cursor-pointer'>
               <div className='text-[8px]'><RightArrowIcon /></div>
               <div>Our Services</div>
-            </div>
-            <div className='flex items-center gap-x-1 opacity-70 mb-2 text-sm sm:text-base'>
+            </a>
+            <a href='#how-it-works' className='text-white flex items-center gap-x-1 opacity-70 hover:opacity-100 mb-2 text-sm sm:text-base transition-opacity cursor-pointer'>
               <div className='text-[8px]'><RightArrowIcon /></div>
               <div>How It Works</div>
-            </div>
+            </a>
           </div>
           <div className='flex-auto'>
             <div className='text-base sm:text-lg font-bold mb-3 sm:mb-4'>Our Services</div>
