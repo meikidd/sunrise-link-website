@@ -23,7 +23,7 @@ function SEOMetaUpdater() {
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
       metaDescription.setAttribute('content', isZh
-        ? '日升女佣是新加坡值得信赖的女佣中介，提供经验证的家庭女佣、老人护理专家和儿童看护服务。24/7全天候支持，轻松无忧的聘请流程。联系电话：+65 82935678'
+        ? '日升女佣是新加坡值得信赖的女佣中介，提供经验证的家庭女佣、老人护理和儿童看护服务。24/7全天候支持，轻松无忧的聘请流程。联系电话：+65 82935678'
         : 'Sunrise Link is Singapore\'s trusted helper agency providing verified domestic helpers, eldercare specialists, and childcare experts. 24/7 support, hassle-free process, and personalized care matching. Contact us at +65 82935678.'
       )
     }
@@ -49,7 +49,7 @@ function SEOMetaUpdater() {
     const ogDescription = document.querySelector('meta[property="og:description"]')
     if (ogDescription) {
       ogDescription.setAttribute('content', isZh
-        ? '关怀如晨曦，信任织纽带。在新加坡寻找经验证的女佣、老人护理专家和儿童看护。24/7支持，轻松聘请流程。'
+        ? '关怀如晨曦，信任织纽带。在新加坡寻找经验证的女佣、老人护理和儿童看护。24/7支持，轻松聘请流程。'
         : 'A sunrise of care, a link of trust. Find verified domestic helpers, eldercare specialists, and childcare experts in Singapore. 24/7 support and hassle-free hiring process.'
       )
     }

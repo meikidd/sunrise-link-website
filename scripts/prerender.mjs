@@ -56,7 +56,7 @@ async function prerender() {
         );
         html = html.replace(
           /<meta name="description" content="[^"]*" \/>/,
-          '<meta name="description" content="日升女佣是新加坡值得信赖的女佣中介，提供经验证的家庭女佣、老人护理专家和儿童看护服务。24/7全天候支持，轻松无忧的聘请流程。联系电话：+65 82935678" />'
+          '<meta name="description" content="日升女佣是新加坡值得信赖的女佣中介，提供经验证的家庭女佣、老人护理和儿童看护服务。24/7全天候支持，轻松无忧的聘请流程。联系电话：+65 82935678" />'
         );
         html = html.replace(
           /<meta name="keywords" content="[^"]*" \/>/,
@@ -68,7 +68,7 @@ async function prerender() {
         );
         html = html.replace(
           /<meta property="og:description" content="[^"]*" \/>/,
-          '<meta property="og:description" content="关怀如晨曦，信任织纽带。在新加坡寻找经验证的女佣、老人护理专家和儿童看护。24/7支持，轻松聘请流程。" />'
+          '<meta property="og:description" content="关怀如晨曦，信任织纽带。在新加坡寻找经验证的女佣、老人护理和儿童看护。24/7支持，轻松聘请流程。" />'
         );
         html = html.replace(
           /<meta property="og:locale" content="[^"]*" \/>/,

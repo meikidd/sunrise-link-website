@@ -89,12 +89,12 @@ function AppZh() {
           </article>
           <article className='flex-1 bg-white rounded-lg pt-6 sm:pt-8 p-5 sm:p-6'>
             <div className='text-3xl sm:text-4xl flex items-center text-[#E0910F]' aria-hidden="true"><EldercareSpecialistsIcon /></div>
-            <h3 className='mt-2 mb-3 sm:mb-4 text-base sm:text-lg font-bold'>老人护理专家</h3>
+            <h3 className='mt-2 mb-3 sm:mb-4 text-base sm:text-lg font-bold'>老人护理</h3>
             <p className='text-sm sm:text-base'>富有同情心的护理人员，经过培训为年长家庭成员提供专业护理和陪伴。</p>
           </article>
           <article className='flex-1 bg-white rounded-lg pt-6 sm:pt-8 p-5 sm:p-6'>
             <div className='text-3xl sm:text-4xl flex items-center text-[#E0910F]' aria-hidden="true"><ChildcareExpertsIcon /></div>
-            <h3 className='mt-2 mb-3 sm:mb-4 text-base sm:text-lg font-bold'>儿童看护专家</h3>
+            <h3 className='mt-2 mb-3 sm:mb-4 text-base sm:text-lg font-bold'>儿童看护</h3>
             <p className='text-sm sm:text-base'>细心呵护的女佣，专注于儿童看护、早期教育和发展支持。</p>
           </article>
         </div>
@@ -159,10 +159,10 @@ function AppZh() {
               <div>家庭女佣</div>
             </div>
             <div className='flex items-center gap-x-1 opacity-70 mb-2 text-sm sm:text-base'>
-              <div>老人护理专家</div>
+              <div>老人护理</div>
             </div>
             <div className='flex items-center gap-x-1 opacity-70 mb-2 text-sm sm:text-base'>
-              <div>儿童看护专家</div>
+              <div>儿童看护</div>
             </div>
           </div>
           <address className='flex-auto not-italic'>
