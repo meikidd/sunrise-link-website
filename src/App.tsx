@@ -62,7 +62,7 @@ function SEOMetaUpdater() {
     // 更新 canonical URL
     const canonical = document.querySelector('link[rel="canonical"]')
     if (canonical) {
-      canonical.setAttribute('href', `https://sunriselink.sg${location.pathname}`)
+      canonical.setAttribute('href', `https://www.sunriselink.sg${location.pathname}`)
     }
   }, [location])
 

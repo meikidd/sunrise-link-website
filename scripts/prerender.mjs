@@ -75,8 +75,8 @@ async function prerender() {
           '<meta property="og:locale" content="zh_CN" />'
         );
         html = html.replace(
-          /<link rel="canonical" href="https:\/\/sunriselink\.sg\/" \/>/,
-          '<link rel="canonical" href="https://sunriselink.sg/zh" />'
+          /<link rel="canonical" href="https:\/\/www\.sunriselink\.sg\/" \/>/,
+          '<link rel="canonical" href="https://www.sunriselink.sg/zh" />'
         );
       }
 
