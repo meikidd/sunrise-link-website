@@ -12,6 +12,7 @@ import RightArrowIcon from './svg/right-arrow.svg?react'
 import PhoneIcon from './svg/phone.svg?react'
 import EmailIcon from './svg/email.svg?react'
 import WhatsappIcon from './svg/whatsapp.svg?react'
+import GlobeIcon from './svg/globe.svg?react'
 import './App.css'
 
 function AppEn() {
@@ -21,16 +22,23 @@ function AppEn() {
       {/* Header */}
       <header className="h-16 py-2 px-4 md:px-8 flex items-center justify-between">
         <img className="h-full" src={logo} alt="Sunrise Link logo" />
-        <div className="flex items-center gap-x-4">
-          <a href="/zh" className="text-sm hover:text-[#E0910F] transition-colors">切换到：中文</a>
+        <div className="flex items-center gap-x-2 md:gap-x-6">
+          <a href="/zh" className="text-sm hidden md:inline hover:text-[#E0910F] transition-colors">切换到：中文</a>
+          <a
+            href="/zh"
+            className='text-xs md:hidden md:text-xl font-bold bg-[#E0910F] text-white rounded-full py-1.5 px-2 md:py-2 md:px-4 flex items-center gap-x-1 md:gap-x-2 cursor-pointer hover:bg-[#D08010] transition-colors'
+          >
+            <GlobeIcon />
+            <span>中文</span>
+          </a>
           <a
             href="https://wa.me/6582935678"
             target="_blank"
             rel="noopener noreferrer"
-            className='text-sm md:text-xl font-bold bg-[#E0910F] text-white rounded-full py-1.5 px-3 md:py-2 md:px-4 flex items-center gap-x-1 md:gap-x-2 cursor-pointer hover:bg-[#D08010] transition-colors'
+            className='text-xs md:text-xl font-bold bg-[#E0910F] text-white rounded-full py-1.5 px-2 md:py-2 md:px-4 flex items-center gap-x-1 md:gap-x-2 cursor-pointer hover:bg-[#D08010] transition-colors'
           >
             <WhatsappIcon />
-            <span>+65 82935678</span>
+            <span><span className='hidden md:inline'>+65</span> 82935678</span>
           </a>
         </div>
       </header>
